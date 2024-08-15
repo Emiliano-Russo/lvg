@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Game One",
+    "description": "An exciting adventure game.",
+    "image": "https://i.pinimg.com/564x/fe/de/56/fede56d2df6a604a0808eed0c5108356.jpg",
+    "size": "2.5 GB"
+  },
+  {
+    "id": 2,
+    "title": "Game Two",
+    "description": "https://i.pinimg.com/564x/a5/91/f9/a591f986e9e7dd2e1c8004e642249edc.jpg",
+    "image": "https://i.pinimg.com/564x/a5/91/f9/a591f986e9e7dd2e1c8004e642249edc.jpg",
+    "size": "3.2 GB"
+  },
+  {
+    "id": 3,
+    "title": "Game Three",
+    "description": "A fun puzzle game.",
+    "image": "https://i.pinimg.com/736x/24/f7/4c/24f74c600fbd83cb79db042e61bea279.jpg",
+    "size": "1.4 GB"
+  }
+]

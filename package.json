@@ -96,13 +96,18 @@
     }
   },
   "dependencies": {
+    "@aws-sdk/client-rds": "^3.632.0",
+    "@aws-sdk/client-s3": "^3.632.0",
     "@electron/notarize": "^2.3.2",
+    "dotenv": "^16.4.5",
     "electron-debug": "^3.2.0",
     "electron-log": "^4.4.8",
     "electron-updater": "^6.1.4",
+    "mysql2": "^3.11.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0"
+    "react-router-dom": "^6.16.0",
+    "sequelize": "^6.37.3"
   },
   "devDependencies": {
     "@electron/rebuild": "^3.3.0",

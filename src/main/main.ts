@@ -14,6 +14,7 @@ import { autoUpdater } from 'electron-updater';
 import log from 'electron-log';
 import MenuBuilder from './menu';
 import { resolveHtmlPath } from './util';
+import core from './core/index';
 
 class AppUpdater {
   constructor() {
@@ -84,6 +85,7 @@ const createWindow = async () => {
   mainWindow.loadURL(resolveHtmlPath('index.html'));
 
   mainWindow.on('ready-to-show', () => {
+    core.run();
     if (!mainWindow) {
       throw new Error('"mainWindow" is not defined');
     }
